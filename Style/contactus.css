@@ -1,0 +1,17 @@
+body{background-color: transparent;}
+			#section1{
+				height:80%;
+				background-color:rgba(31,100,200,0.4);
+				backface-visibility:visible;
+			}
+			#section2{
+				height:100%;
+				background-image:url("../Images/Child1.jpg");
+				background-attachment:fixed;
+				background-size:100% 100%;
+			}		
+			.section3{
+				height:40%;
+				padding-top:2%;
+			}
+			#img1{height:100%;width:100%;}

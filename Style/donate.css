@@ -1,0 +1,9 @@
+#section1{position:relative;}
+			a:hover{text-decoration:none;}
+			img{opacity:0.65;height:100%;width:100%;z-index:-1;}
+			#pagecontent{padding:10px;padding-left:20px;padding-right:20px;
+				position:absolute;z-index:1;left:38%;top:20%;display:block;background-color:rgba(255,255,255,0.5);}
+			#contactus{position:absolute;z-index:1;top:80%;left:42%;font-family:Trebuchet MS;color:;font-size:25px;}
+			#section2,#section3{height:100%;}
+			input[type=text],select,textarea{background-color:rgba(0,0,0,0);border-color:grey;border-radius:10px;}
+				input[type=text],select{width:200px;}

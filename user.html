@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Home Schooling - User</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="Style/menustyle.css">
+		<link rel="icon" href="Images/logo1.png" type="image/x-icon">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+		<script src="Scripts/user.js"></script>
+		<link rel="stylesheet" href="Style/user.css"></link>
+	</head>
+	<body>
+	<center>
+	<ul class="navbar navbar-fixed-top">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="explore.html">Explore</a></li>
+		<!--<li><a href="studyroom.html">Study Room</a></li>
+		<li><a href="Signup.html">Activities</a></li>-->
+		<li><a href="donate.html">Donate</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+		<li><a href="user.html">User</a></li>
+	</ul>
+	<div id="section1">
+	<div id="usercred">
+	<div id="logindiv">
+		<center>	
+			User-Name:<br>
+			<input type="text" placeholder="User-Name.." id="loginid"><br><br>
+			Password:<br>	
+			<input type="password" placeholder="Password.." id="password"><br><br>
+			<button class="btn btn-success" id="" style="width:60%;">Login</button><br>
+			<br><button class="btn btn-primary" id="signupbut" style="width:60%;">Sign-Up</button><br><br>	
+		</center>
+	</div>
+	<div id="signupdiv">
+		<center>
+		<div id="logindetails">
+			User-Name:<br>
+			<input type="text" id="username" placeholder="User-Name.."><br>
+			Email:<br>
+			<input type="email" id="email" placeholder="Email.."><br>
+			Password:<br>
+			<input type="password" id="password1" placeholder="Password.."><br>
+			Confirm-Password:<br>
+			<input type="password" id="password2" placeholder="Confirm-Password.."><br>
+			<button id="ldright" class="glyphicon glyphicon-circle-arrow-right"></button><br>
+		</div>
+		<div id="personaldetails">
+			First-Name:<br>
+			<input type="text" id="fname" placeholder="First-Name.." required><br>
+			Last-Name:<br>
+			<input type="text" id="lname" placeholder="Last-Name.." required><br>
+			Date-Of-Birth:<br>
+			<input type="date" id="dob"><br>
+			You Are A:<br>
+			<select>
+				<option id="stud">Student</option><option id="par">Parent</option><option id="tea">Teacher</option>
+			</select>
+			<br><button id="pdright" class="glyphicon glyphicon-circle-arrow-right "></button>&emsp;&emsp;<button id="pdleft" class="glyphicon glyphicon-circle-arrow-left"></button><br>
+		</div>
+		<div id="addressdetails">
+			<form>
+			Pin-code:<br>
+			<input type="text" id="pincode" placeholder="Pin-Code.." required><br>
+			</form>
+			<div id="addrdetail"></div>
+			<button id="adleft" class="glyphicon glyphicon-circle-arrow-left"></button><br><br>
+			<button class="btn btn-success" id="" style="width:60%;">Sign-Up</button>
+		</div>
+		<br><button class="btn btn-primary" id="loginbut" style="width:60%;">Login</button><br>	
+		</center>
+	</div>
+	
+	</div>
+
+	
+	</div>
+	</center>
+	</body>
+</html>
